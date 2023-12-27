@@ -3843,7 +3843,6 @@ CSS CSS Scripts
     width: 100%;
     height: 100%;
     object-fit: cover;
-    overflow: unset;
     max-height: 70px;
     width: 150px;
 }

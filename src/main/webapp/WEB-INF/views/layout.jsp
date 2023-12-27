@@ -6,7 +6,7 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <meta charset="UTF-8" />
-<title>SeaFoot Store</title>
+<title>Shop thời trang</title>
 <meta name="description" />
 <meta name="keywords" />
 <link href="/assets/user/100004/images/favicon.png" rel="shortcut icon"
@@ -17,12 +17,12 @@
 
 <meta content="vi_VN" property="og:locale" />
 <meta content="website" property="og:type" />
-<meta content="SeaFood Store" property="og:title" />
+<meta content="Shop thời trang" property="og:title" />
 <meta property="og:description" />
 <meta content="/assets/user/100004/images/logo.png" property="og:image" />
 <meta content="http://runecom04.runtime.vn/trang-chu.html"
 	property="og:url" />
-<meta content="SeaFood Store" property="og:site_name" />
+<meta content="Shop thời trang" property="og:site_name" />
 <style>
 .loader_overlay {
 	position: fixed;

@@ -95,26 +95,23 @@
 						<div class="col-lg-7">
 							<div class="footer_address">
 								<p>
-									<span>CÔNG TY CHUYÊN CUNG CẤP HẢI SẢN TOÀN QUỐC</span>
+									<span>CÔNG TY CHUYÊN CUNG CẤP QUẦN ÁO THỜI TRANG NAM NỮ</span>
 								</p>
 								<p>
-									<span>Địa chỉ: số 24 ngõ 467 Phạm Văn Đồng</span>
+									<span>Địa chỉ: Đại học Quy Nhơn</span>
 								</p>
 								<p>
-									<span>Số điện thoại: (08) 66 85 85 38</span>
+									<span>Số điện thoại: 0979981983</span>
 								</p>
 								<p>
-									<span>Số di động: 0335 685 482</span>
-								</p>
-								<p>
-									<span>Email: chuongbui1309@gmail.com</span>
+									<span>Email: trankyvan08@gmail.com</span>
 								</p>
 							</div>
 						</div>
 						<div class="col-lg-5 text-right text-center-xs">
 							<div class="copy_right">
 								<p>
-									<a rel="nofollow" href="/home/index">SeaFood Store</a> <a
+									<a rel="nofollow" href="/home/index">Shop thời trang</a> <a
 										href="/home/index"></a>
 								</p>
 							</div>
