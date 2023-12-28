@@ -52,22 +52,7 @@
 							<!-- footer col 3 -->
 							<div class="footer_block">
 								<h4 class="footer_block_title">Đăng ký nhận bản tin</h4>
-								<div class="block_content" ng-controller="moduleController"
-									ng-init="initController()">
-									<div class="des_newsletter_form">Đăng Ký Thành Viên Để
-										Nhận Bản Tin Mỗi Ngày:</div>
-									<form id="newsletter_form" ng-submit="registerNewsletter()"
-										class="m-b-20 contact-form">
-										<div class="newsletter_wrap">
-											<input ng-model="newsletter.Email" required=""
-												id="contact_email" autocomplete="off" type="email">
-											<label>Email của bạn </label>
-											<button class="btn-newsletter" type="submit">
-												<span><i class="fa fa-paper-plane-o"></i></span>
-											</button>
-										</div>
-									</form>
-								</div>
+								
 							</div>
 							<!-- End footer col 3 -->
 						</div>
@@ -111,8 +96,7 @@
 						<div class="col-lg-5 text-right text-center-xs">
 							<div class="copy_right">
 								<p>
-									<a rel="nofollow" href="/home/index">Shop thời trang</a> <a
-										href="/home/index"></a>
+									<a rel="nofollow" href="/home/index">Shop thời trang</a> <a href="/home/index"></a>
 								</p>
 							</div>
 							<div class="social_footer">
@@ -129,3 +113,4 @@
 			</div>
 		</div>
 	</footer>
+</div>

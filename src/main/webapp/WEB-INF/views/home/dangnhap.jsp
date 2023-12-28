@@ -14,8 +14,6 @@
 								Đăng nhập</a></li>
 						<li><a href="/taikhoan/dangky"><i class="fa fa-key"></i> Đăng
 								ký</a></li>
-						<li><a href="/taikhoan/quenmatkhau"><i class="fa fa-key"></i>
-								Quên mật khẩu</a></li>
 					</ul>
 				</div>
 			</div>
@@ -72,8 +70,6 @@
 								<div class="col-sm-offset-4 col-sm-8">
 									<button type="submit" class="btn btn-primary">Đăng
 										nhập</button>
-									<a href="/taikhoan/quenmatkhau">Quên mật khẩu?</a> <a
-										href="/taikhoan/doimatkhau">Đổi mật khẩu?</a>
 								</div>
 							</div>
 						</form>

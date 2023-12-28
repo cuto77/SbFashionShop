@@ -22,4 +22,4 @@ public class TilesConfig {
 		t.setDefinitions("/WEB-INF/tiles.xml");
 		return t;
 	}
-}
+} 

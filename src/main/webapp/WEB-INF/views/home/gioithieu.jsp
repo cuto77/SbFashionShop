@@ -33,23 +33,7 @@
 							<div class="rte">
 								<div>
 									<div>
-										<p>Seafood chuyên cung cấp sỉ và lẻ các loại hải sản tươi
-											sống, hải sản đóng hộp với các sản phẩm chính sau: </p>
-
-										<ul>
-											<li><strong>﻿Tôm</strong></li>
-											<li><strong>Cá</strong></li>
-											<li><strong>Hàu</strong></li>
-											<li><strong>Bào Ngư</strong></li>
-											<li><strong>Ngao - Sò - Ốc</strong></li>
-											<li><strong>Mực</strong></li>
-											<li><strong>Chả cá và các loại hải sản
-													khác......</strong></li>
-										</ul>
-
-										<p>﻿Những sản phẩm cung cấp đến bạn là 100% từ thiên nhiên
-											luôn tươi ngon, sạch. Hầu hết các sản phẩm có nguồn gốc từ
-											các vùng biển Cam Ranh, Phan Thiết, Nha Trang....</p>
+										<p>Shop thời trang là một shop đa dạng và phong cách, tập trung vào việc mang đến những sản phẩm thời trang chất lượng cao và xu hướng mới nhất cho khách hàng. Shop có một thiết kế hiện đại và sáng tạo, với không gian mua sắm mở và thoáng đãng để khách hàng có thể dễ dàng tìm kiếm các sản phẩm yêu thích của mình. </p>
 									</div>
 								</div>
 

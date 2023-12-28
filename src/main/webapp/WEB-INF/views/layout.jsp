@@ -125,7 +125,6 @@
 			<div>Please wait...</div>
 		</div>
 	</div>
-	<a href="javascript:void(0);" class="back-to-top"><span>Top</span></a>
 </body>
 
 <!-- Mirrored from runecom04.runtime.vn/trang-chu.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Aug 2020 01:45:35 GMT -->

@@ -53,10 +53,7 @@
 						</div>
 					</div>
 					<!--End-->
-					<script type="text/javascript">
-    window.Shop = {"Name":"CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ RUNTIME","Email":"runecom04@runtime.vn","Phone":"(08) 66 85 85 38","Logo":"/Uploads/shop2005/images/logo.png","Fax":"(08) 66 85 85 38","Website":"http://www.runtime.vn","Hotline":"0908 77 00 95","Address":"5/12A Quang Trung, P.14, Q.Gò Vấp, Tp.HCM","Fanpage":"https://www.facebook.com/runtime.vn","Google":null,"Facebook":null,"Youtube":null,"Twitter":null,"IsBanner":false,"IsFixed":false,"BannerImage":null};
-    window.SupportOnlines = [];
-</script>
+	
 				</div>
 				<div class="col-md-9">
 
@@ -68,36 +65,11 @@
 							<li class="icon-li"><strong>Liên hệ</strong></li>
 						</ul>
 					</div>
-					<script type="text/javascript">
-    $(".link-site-more").hover(function () { $(this).find(".s-c-n").show(); }, function () { $(this).find(".s-c-n").hide(); });
-</script>
-
-					<script
-						src="http://maps.google.com/maps/api/js?key=AIzaSyBO93-_2pxx4UBTNduADxfoWpsFrHAFKsA&amp;sensor=true"
-						type="text/javascript"></script>
-					<script src="app/services/contactServices.js"></script>
-					<script src="app/controllers/contactController.js"></script>
 					<!--Begin-->
 					<div class="contact-content clearfix"
 						ng-controller="contactController"
 						ng-init="initController('Shop','Maps')">
 						<div class="content clearfix">
-							<h1 title="liên hệ">Liên hệ</h1>
-							<div class="col-md-12 col-xs-12 col-sm-12">
-								<div class="map clearfix">
-									<div class="map-canvas" id="map_canvas"></div>
-									<div class="map-information" ng-if="Maps.length>1">
-										<ul class="clearfix">
-											<li ng-repeat="item in Maps">
-												<div>
-													<a onclick="moveToMaker({{item.Id}}); return false;"
-														href="javascript:void(0)"> {{item.Name}} </a>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
 							<div class="col-md-7" id="col-left contactFormWrapper">
 								<h3>Liên hệ với chúng tôi</h3>
 								<hr class="line-left">
@@ -140,23 +112,6 @@
 									<input class="btn btn-primary btn-lg" value="Gửi liên hệ"
 										type="submit">
 								</form>
-							</div>
-							<div class="col-md-5" id="col-right">
-								<h3>Địa chỉ liên lạc</h3>
-								<hr class="line-right">
-								<h3 class="name-company">{{shop.Name}}</h3>
-								<p>{{shop.Sologan}}</p>
-								<ul class="info-address">
-									<li class="m-b-5"><i
-										class="glyphicon glyphicon-map-marker m-r-5"></i> <span>{{shop.Address}}</span>
-									</li>
-									<li class="m-b-5"><i
-										class="glyphicon glyphicon-envelope m-r-5"></i> <span>{{shop.Email}}</span>
-									</li>
-									<li class="m-b-5"><i
-										class="glyphicon glyphicon-phone-alt m-r-5"></i> <span>{{shop.Phone}}</span>
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>

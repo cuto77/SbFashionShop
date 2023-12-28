@@ -110,11 +110,10 @@ class="fa fa-key"></i> Sản phẩm đã mua</a></li>
 
 								<form action="/sanpham/list-by-keywords" method="post">
 									<input value="${param.keywords}" name="keywords"
-										class="index_input_search"
-										placeholder="Nhập từ khóa tìm kiếm..." />
+										class="index_input_search"/>
 									<button class="btn_search_submit btn " type="submit"
 										id="btnsearch">
-										<span>Tìm ngay</span>
+										<span>Tìm Kiếm</span>
 									</button>
 								</form>
 							</div>
@@ -130,7 +129,7 @@ class="fa fa-key"></i> Sản phẩm đã mua</a></li>
 								class="box_text"> <strong class="cart_header_count">Giỏ
 										hàng <span id="cart-cnt">${cart.count}</span>
 								</strong> <span class="cart_price" id="cart-amt"><f:formatNumber
-											value="${cart.amount}" pattern="#,###" />vnd</span>
+											value="${cart.amount}" pattern="#,###" />VND</span>
 							</span>
 							</a>
 							<div class="cart_clone_box">
@@ -233,10 +232,10 @@ class="fa fa-key"></i> Sản phẩm đã mua</a></li>
 											thiệu</span></a></li>
 								<li class="level0"><a class='' href='/home/sanpham'><span>Sản
 phẩm</span></a></li>
-								<li class="level0"><a class='' href='/home/tintuc'><span>Tin
-											tức</span></a></li>
+								
 								<li class="level0"><a class='' href='/home/lienhe'><span>Liên
 											hệ</span></a></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -245,10 +244,8 @@ phẩm</span></a></li>
 						<!-- Logo mobile -->
 						<div class="logo logo-mobile">
 
-							<a href="/home/index"
-								title="Hệ thống phân phối hản sản toàn quốc">
-								<img src="/assets/user/100004/images/logo.png"
-								alt="Hệ thống phân phối hản sản toàn quốc">
+							<a href="/home/index">
+								<img src="/assets/user/100004/images/logo.png">
 							</a>
 						</div>
 						<!-- End Logo mobile -->
@@ -352,8 +349,7 @@ phẩm</span></a></li>
 										<li class="level0"><a class=''
 											href='/sanpham/danhsach-danhmuc/${c.maDanhMuc}'> <img
 												class='icon-menu'
-												src='/assets/user/100004/images/icon/${c.imgUrl}'
-												alt='Nghao - Sò - Ốc'> <span>${c.tenDanhMuc}</span>
+												src='/assets/user/100004/images/icon/${c.imgUrl}'> <span>${c.tenDanhMuc}</span>
 										</a>
 									</c:forEach>
 								</ul>
@@ -368,10 +364,9 @@ phẩm</span></a></li>
 										thiệu</span></a></li>
 							<li class="level0"><a class='' href='/home/sanpham'><span>Sản
 										phẩm</span></a></li>
-							<li class="level0"><a class='' href='/home/tintuc'><span>Tin
-										tức</span></a></li>
 							<li class="level0"><a class='' href='/home/lienhe'><span>Liên
 										hệ</span></a></li>
+							
 						</ul>
 					</nav>
 				</div>

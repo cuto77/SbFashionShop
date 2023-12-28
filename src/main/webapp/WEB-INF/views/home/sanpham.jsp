@@ -69,7 +69,6 @@
 									class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow">
 									<div class="product-block product-resize m-b-20">
 										<div class="product-image image-resize">
-											<div class="sold-out">Hot</div>
 											<a href="/sanpham/chitiet/${p.maSanPham}"> <img
 												class="first-img"
 												src="/assets/user/100004/images/product/${p.imgUrl}"

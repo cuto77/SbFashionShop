@@ -141,7 +141,7 @@
 									</div>
 									<div id="add-item-form" class="variants clearfix m-b-10 p-b-10">
 										<div class="clearfix product_quantity m-t-10 m-b-20">
-											<label class="label_quantity m-b-5">Số lượng/KG</label>
+											<label class="label_quantity m-b-5">Số lượng</label>
 											<button class="button btn_minus b-r-0"
 												ng-click="DownQuantity()">-</button>
 											<input name="quantity"
@@ -158,33 +158,9 @@
 													hàng
 												</button>
 											</div>
-											<div
-												class="col-lg-6 col-sm-6 col-xs-6 col-xxs-12 p-r-0 p-l-xxs-0 m-b-10">
-												<a id="buy-now"
-													class="btn btn-primary glyphicon glyphicon-ok"
-													href="/dathang/thanhtoan">Đặt Hàng</a>
-											</div>
+
 										</div>
-										<div class="call">
-											<p class="title">Để lại số điện thoại, chúng tôi sẽ tư
-												vấn ngay sau từ 5 › 10 phút</p>
-											<div class="input">
-												<div class="input-group">
-													<input
-														class="form-control ng-pristine ng-untouched ng-valid"
-														ng-model="CustomerPhone"
-														onblur="if(this.value=='')this.value='Nhập số điện thoại...'"
-														onfocus="if(this.value=='Nhập số điện thoại...')this.value=''"
-														value="Nhập số điện thoại..." type="text"> <span
-														class="input-group-btn">
-														<button class="btn btn-primary" type="button"
-															ng-click="callMe()">
-															<i class="fa fa-phone"></i> Gọi lại cho tôi
-														</button>
-													</span>
-												</div>
-											</div>
-										</div>
+										
 									</div>
 								</div>
 							</div>
@@ -355,7 +331,6 @@
 													style="height: 295px;">
 													<div class="product-image image-resize"
 														style="height: 208px;">
-														<div class="sold-out">Hot</div>
 														<a href="/sanpham/chitiet/${p.maSanPham}"> <img
 															class="first-img"
 															src="/assets/user/100004/images/product/${p.imgUrl}"
@@ -380,7 +355,7 @@
 													</div>
 													<div class="product-info text-center m-t-xxs-20">
 														<h3 class="pro-name">
-															<a href="/sanpham/chitiet/${p.maSanPham}" title="Hàu sữa">${p.tenSanPham}</a>
+															<a href="/sanpham/chitiet/${p.maSanPham}" >${p.tenSanPham}</a>
 														</h3>
 														<div class="pro-prices">
 															<span class="pro-price"><f:formatNumber
@@ -404,8 +379,7 @@
 												<div class="product-block product-resize m-b-20 fixheight"
 													style="height: 295px;">
 													<div class="product-image image-resize"
-														style="height: 208px;">
-														<div class="sold-out">Hot</div>
+														style="height: 208px;">													
 														<a href="/sanpham/chitiet/${p.maSanPham}"> <img
 															class="first-img"
 															src="/assets/user/100004/images/product/${p.imgUrl}"
@@ -430,7 +404,7 @@
 													</div>
 													<div class="product-info text-center m-t-xxs-20">
 														<h3 class="pro-name">
-															<a href="/sanpham/chitiet/${p.maSanPham}" title="Hàu sữa">${p.tenSanPham}</a>
+															<a href="/sanpham/chitiet/${p.maSanPham}" >${p.tenSanPham}</a>
 														</h3>
 														<div class="pro-prices">
 															<span class="pro-price"><f:formatNumber
@@ -447,115 +421,9 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="menu-product">
-						<h3>
-							<span> Sản phẩm </span>
-						</h3>
-						<ul class="level0">
-							<c:forEach var="c" items="${danhmucSP}">
-								<li class="child"><span><a
-										href="/sanpham/danhsach-danhmuc/${c.maDanhMuc}"><i
-											class="fa fa-arrow-circle-right"></i> ${c.tenDanhMuc}</a></span><span
-									class="open-close"><i class="fa fa-angle-down"></i></span>
-							</c:forEach>
-						</ul>
-					</div>
-					<script type="text/javascript">
-						$(document)
-								.ready(
-										function() {
-											$(
-													'.menu-product li.child .open-close')
-													.on(
-															'click',
-															function() {
-																$(this)
-																		.removeAttr(
-																				'href');
-																var element = $(
-																		this)
-																		.parent(
-																				'li');
-																if (element
-																		.hasClass('open')) {
-																	element
-																			.removeClass('open');
-																	element
-																			.children(
-																					'ul')
-																			.slideUp();
-																} else {
-																	element
-																			.addClass('open');
-																	element
-																			.children(
-																					'ul')
-																			.slideDown();
-																}
-															});
-										});
-					</script>
-					<script src="/assets/user/100004/js/moduleServices.js"></script>
-					<script src="/assets/user/100004/js/moduleController.js"></script>
-					<!--Begin-->
-					<div class="box-sale-policy ng-scope"
-						ng-controller="moduleController"
-						ng-init="initSalePolicyController('Shop')">
-						<h3>
-							<span>Chính sách bán hàng</span>
-						</h3>
-						<div class="sale-policy-block">
-							<ul>
-								<li>Giao hàng TOÀN QUỐC</li>
-								<li>Thanh toán khi nhận hàng</li>
-								<li>Đổi trả trong <span>15 ngày</span></li>
-								<li>Hoàn ngay tiền mặt</li>
-								<li>Chất lượng đảm bảo</li>
-								<li>Miễn phí vận chuyển:<span>Đơn hàng từ 3 món trở
-										lên</span></li>
-							</ul>
-						</div>
-						<div class="buy-guide">
-							<h3>Hướng Dẫn Mua Hàng</h3>
-							<ul>
-								<li>Mua hàng trực tiếp tại website <b class="ng-binding">
-										http://www.runtime.vn</b>
-								</li>
-								<li>Gọi điện thoại <strong class="ng-binding">
-										0908 77 00 95 </strong> để mua hàng
-								</li>
-								<li>Mua tại Trung tâm CSKH:<br> <strong
-									class="ng-binding">5/12A Quang Trung, P.14, Q.Gò Vấp,
-										Tp.HCM</strong> <a href="/ban-do.html" rel="nofollow" target="_blank">Xem
-										Bản Đồ</a>
-								</li>
-								<li>Mua sỉ/buôn xin gọi <strong class="ng-binding">
-										0908 77 00 95 </strong> để được hỗ trợ.
-								</li>
-							</ul>
-						</div>
-					</div>
-					<!--End-->
-					<script type="text/javascript">
-						window.Shop = {
-							"Name" : "CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ RUNTIME",
-							"Email" : "runecom04@runtime.vn",
-							"Phone" : "(08) 66 85 85 38",
-							"Logo" : "/Uploads/shop2005/images/logo.png",
-							"Fax" : "(08) 66 85 85 38",
-							"Website" : "http://www.runtime.vn",
-							"Hotline" : "0908 77 00 95",
-							"Address" : "5/12A Quang Trung, P.14, Q.Gò Vấp, Tp.HCM",
-							"Fanpage" : "https://www.facebook.com/runtime.vn",
-							"Google" : null,
-							"Facebook" : null,
-							"Youtube" : null,
-							"Twitter" : null,
-							"IsBanner" : false,
-							"IsFixed" : false,
-							"BannerImage" : null
-						};
-					</script>
+					
+	
+					
 					<div class="box-product widget_block_sidebar">
 						<div class="title_product_related widget_title_sidebar">
 							<h3>Sản Phẩm Quan Tâm Nhất</h3>
@@ -565,13 +433,12 @@
 							<c:forEach var="p" items="${listSPQT}">
 								<li class="pro-loop clearfix">
 									<div class="col-md-5 col-sm-5 col-xs-5">
-										<a href="/sanpham/chitiet/${p.maSanPham}" title="Cồi sò điệp">
-											<img src="/assets/user/100004/images/product/${p.imgUrl}"
-											alt="Cồi sò điệp">
+										<a href="/sanpham/chitiet/${p.maSanPham}" >
+											<img src="/assets/user/100004/images/product/${p.imgUrl}">
 										</a>
 									</div>
 									<div class="col-md-7 col-sm-7 col-xs-7">
-										<a href="/sanpham/chitiet/${p.maSanPham}" title="Cồi sò điệp">
+										<a href="/sanpham/chitiet/${p.maSanPham}">
 											<h3 class="product_related_name">${p.tenSanPham}</h3>
 											<p class="product_related_price">
 												<span class="product_related_price"><f:formatNumber
@@ -614,7 +481,6 @@
 		<div>Please wait...</div>
 	</div>
 </div>
-<a href="javascript:void(0);" class="back-to-top"><span>Top</span></a>
 
 
 

@@ -16,7 +16,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
 	ShareInterceptor share;
 
 	@Autowired
-	AuthorizeInterceptor auth;
+	AuthorizeInterceptor auth; 
 
 	@Autowired
 	AuthorizeInterceptorAdmin authAdmin;
